@@ -1,0 +1,28 @@
+.Header {
+  text-align: center;
+}
+.Header-logo {
+  background-color: #777;
+  max-height: 9.5vmin;
+  overflow: hidden;
+}
+.Header-logo a {
+  display: block;
+  margin: auto;
+}
+.Header-logo img {
+  height: 18vmin;
+  margin-top: -4.5vmin;
+  pointer-events: none;
+}
+.Header-login {
+  position: absolute;
+  right: 3vmin;
+  top: 2.5vmin;
+  font-size: 3vmin;
+  font-weight: bold;
+}
+.Header-login a {
+  color: black;
+  text-decoration: none;
+}

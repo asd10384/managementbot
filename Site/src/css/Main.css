@@ -1,0 +1,14 @@
+.Main {
+  text-align: center;
+  color: white;
+  margin-top: 3vmin;
+}
+.Main .Data {
+  font-size: 3vmin;
+  margin-top: 1vmin;
+}
+.Main .btn {
+  margin-bottom: 2vmin;
+  font-size: 3vmin;
+  font-weight: bold;
+}
