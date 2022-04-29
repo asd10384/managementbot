@@ -17,6 +17,8 @@ export default class Consts {
   public static readonly CLIENT_INTENTS: IntentsString[] = [
     'GUILDS',
     'GUILD_MESSAGES',
+    'GUILD_PRESENCES',
+    'GUILD_MEMBERS',
     'GUILD_MESSAGE_REACTIONS',
     'GUILD_VOICE_STATES',
     'GUILD_INTEGRATIONS',

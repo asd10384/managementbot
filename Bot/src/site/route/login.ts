@@ -34,7 +34,6 @@ router.get('/login', async (req, res) => {
         }
       });
       const userData = await userResult.json();
-      console.log(1,userData);
       const token = jwt.sign(JSON.stringify(userData), process.env.JWTSECRET!);
       return res.status(200).redirect(`${process.env.CLIENTSITE}/login?token=${token}`);
     } catch (err) {

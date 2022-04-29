@@ -2,13 +2,30 @@
   text-align: center;
   color: white;
   margin-top: 3vmin;
+  margin-bottom: 10vmin;
 }
-.Main .Data {
-  font-size: 3vmin;
-  margin-top: 1vmin;
+.Main .Guilds {
+  display: flex;
+  padding: 2vmin 5vmin 0 5vmin;
 }
-.Main .btn {
-  margin-bottom: 2vmin;
-  font-size: 3vmin;
-  font-weight: bold;
+
+.Main .Guilds a {
+  color: white;
+  text-decoration: none;
+}
+.Main .Guilds a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: dashed;
+}
+
+.Main .Guilds .Guild {
+  margin: 0 1vmin;
+  border-radius: 15px;
+  background-color: gray;
+  display: block;
+  width: 20vmin;
+  word-break: break-all;
+}
+.Main .Guilds .Guild .Image {
+  height: 15vmin;
 }

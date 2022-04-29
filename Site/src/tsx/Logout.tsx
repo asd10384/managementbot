@@ -1,7 +1,7 @@
-import { setCookie } from "../modules/cookie";
+import { removeCookie } from "../modules/cookie";
 
 export default function Logout() {
-  setCookie("token", "");
+  removeCookie("token");
   window.location.href = "/";
   return (
     <div className="Logout">

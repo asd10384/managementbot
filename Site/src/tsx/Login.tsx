@@ -13,7 +13,7 @@ export default function Login() {
           if (data.check) {
             setuser("true");
             setCookie("token", query.token as string, {
-              maxAge: 1000*60*60*12
+              maxAge: 1000*60*60*3
             });
             window.location.href = "/";
           } else {
